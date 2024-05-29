@@ -1,0 +1,1 @@
+content.createBlock("dust").register()
