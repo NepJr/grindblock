@@ -1,1 +1,0 @@
-crafting.addShapeless(item('gbcore:blockdust'), [item('gregtech:hammer'), item('minecraft:sand')])
