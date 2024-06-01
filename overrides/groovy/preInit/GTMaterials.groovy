@@ -3,4 +3,48 @@ mods.gregtech.materialEvent {
     .fluid()
     .color(0x000000)
     .build()
+
+    def Enderium = materialBuilder(32001, "enderium")
+    .ingot().dust().fluid()
+    .iconSet("metallic")
+    .color(0x1F6B62)
+    .blastTemp(3600, "mid", 1920, 2000, 1920, 2000)
+    .flags("generate_plate", "generate_rod", "generate_frame")
+    .build()
+
+    def SiltyWater = materialBuilder(32002, "silty_water")
+    .fluid()
+    .color(0x000099)
+    .build()
+
+    def Slag = materialBuilder(32003, "slag")
+    .dust()
+    .color(0xA52A2A)
+    .build()
+
+    def PulsatingIron = materialBuilder(32004, "pulsating_iron")
+    .ingot().dust().fluid()
+    .color(0x6AE26E)
+    .iconSet("shiny")
+    .build()
+
+    def ConductiveIron = materialBuilder(32005, "conductive_iron")
+    .ingot().dust().fluid()
+    .color(0xFF2B2B)
+    .iconSet("dull")
+    .build()
+
+    def EnergeticAlloy = materialBuilder(32006, "energetic_alloy")
+    .ingot().dust().fluid()
+    .color(0xFFB545)
+    .blastTemp(1800, "low")
+    .iconSet("shiny")
+    .build()
+
+    def VibrantAlloy = materialBuilder(32007, "vibrant_alloy")
+    .ingot().dust().fluid()
+    .color(0xA4FF70)
+    .blastTemp(2700, "mid", 480, 400)
+    .iconSet("shiny")
+    .build()
 }

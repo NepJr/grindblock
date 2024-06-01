@@ -7,7 +7,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Welcome to GrindBlock! This is a GregTech and Skyblock modpack. As the name implies, there\u0027s a bit of grinding to do on the modpack, so get ready for a bit of grinding!\n\nAs a present, here are some starting items for you to work with. Try not to lose the saplings, it\u0027d be embarrasing to lose them this early on\n\nAlso make sure you place the Ice ontop of a block so you actually get water!",
+          "desc:8": "Welcome to GrindBlock! This is a GregTech and Skyblock modpack. As the name implies, there\u0027s a bit of grinding to do on the modpack, so get ready for a bit of grinding!\n\nAs a present, here are some starting items for you to work with. Try not to lose the saplings, it\u0027d be embarrasing to lose them this early on\n\nAlso make sure you place the Ice ontop of a block so you actually get water!\n\nAlso, you can spam your shift key to make trees grow faster.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1741,6 +1741,457 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "23:10": {
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Welcome to the Steam Age, and congratulations if you made it this far! It only gets more grindy from here! Click the checkbox to recieve an awesome prize! I baked these two cakes just for you!\n\n§l!!! §r§c§lIMPORTANT §r§l!!!§r\n\nMake sure you place the Overworld cake §c§lIN THE NETHER§r otherwise you won\u0027t be able to return with your items!!!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Beginning of the Steam Age",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 23,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "minecraft:sapling"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "minecraft:sapling"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "minecraft:sapling"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "minecraft:sapling"
+            },
+            "4:10": {
+              "Count:3": 4,
+              "Damage:2": 5,
+              "OreDict:8": "",
+              "id:8": "minecraft:sapling"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "dimensionaledibles:nether_cake"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "dimensionaledibles:overworld_cake"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "24:10": {
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Time to go to the nether! What you\u0027ll want to do is build to a Nether Fortress (have fun lmao) and get two diamonds in it. I hope the first Nether Fortress you go to has two!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:obsidian"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "What the hell?",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 24,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:diamond"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "25:10": {
+      "preRequisites:11": [
+        24
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "So, you can make steam, time to finally put it to use. Make a Macerator!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The Real Grind Begins",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 25,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "26:10": {
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You can now macerate Dust for Diamonds!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:diamond"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Easier Diamonds!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 26,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "27:10": {
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Why not put some of that steam to use and make an alloy smelter? It\u0027ll let you make more bronze from the same amount as dust from handcrafting, and create new things, like Red Alloy!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 17,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Alloying",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 27,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 17,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "28:10": {
+      "preRequisites:11": [
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Well.... not exactly.... but it can compress things!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 11,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Making your own ZIP files!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 28,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "29:10": {
+      "preRequisites:11": [
+        26
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Provide a Steam Rock Breaker some... well... steam! And put Water and Lava next to it, and voila! It can mine cobblestone for you!",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 19,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Automatic Mining!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 29,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 19,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "30:10": {
+      "preRequisites:11": [
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You now have all the necessary machines to make a Primitive Blast Furnace for steel. I would recommend using a Steam Macerator to get the dust you need",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1000,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "STEEEEL",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 30,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1000,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -1923,6 +2374,83 @@
           "sizeY:3": 48,
           "x:3": 216,
           "y:3": 12
+        }
+      }
+    },
+    "1:10": {
+      "lineID:3": 1,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Welcome to the beginning",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "name:8": "Steam Age",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 23,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -24
+        },
+        "1:10": {
+          "id:3": 24,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -24
+        },
+        "2:10": {
+          "id:3": 25,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 84,
+          "y:3": -36
+        },
+        "3:10": {
+          "id:3": 26,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -72
+        },
+        "4:10": {
+          "id:3": 27,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -24,
+          "y:3": 48
+        },
+        "5:10": {
+          "id:3": 28,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 84,
+          "y:3": 48
+        },
+        "6:10": {
+          "id:3": 29,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 84,
+          "y:3": -144
+        },
+        "7:10": {
+          "id:3": 30,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 156,
+          "y:3": 60
         }
       }
     }

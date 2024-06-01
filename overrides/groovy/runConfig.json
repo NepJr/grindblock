@@ -11,6 +11,7 @@
       "preInit/"
     ],
     "postInit": [
+      "postInit/RecipesRemoval.groovy",
       "postInit/"
     ]
   },
